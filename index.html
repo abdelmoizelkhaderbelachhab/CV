@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Abdelmoiz Elkhader Belachhab</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="print-button">
+      <button onclick="download()" class="print-button">Télécharger le PDF</button>
+    </div>
+
+    <div id="content" class="page">
+      <div class="printed-wrapper">
+        <!-- Informations personnelles -->
+        <div class="personal-info-wrapper">
+          <div class="personal-info-left">
+            <div class="header-upper">
+              <h3 class="full-name">
+                ABDELMOIZ ELKHADER BELACHHAB <span class="age" >(20 ans)</span>
+              </h3>
+              <h4 id="role-position" class="position">Développeur Full-stack</h4>
+            </div>
+            <div class="personal-info">
+              <div>Tanger, Maroc</div>
+              <a href="tel:+212777079776">+212 77 70 79 776</a>
+              <a href="mailto:abdelmoizelkhaderbelachhab@gmail.com"
+                >abdelmoizelkhaderbelachhab@gmail.com</a
+              >
+              <a href="https://github.com/abdelmoizelkhaderbelachhab" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab</a
+              >
+              <a
+                href="https://www.linkedin.com/in/abdelmoiz-elkhader-belachhab-5ab65a35a/"
+                target="_blank"
+                >linkedin.com/in/abdelmoiz-elkhader-belachhab</a
+              >
+            </div>
+          </div>
+          <div class="img-wrapper">
+            <img src="./d566a273-2bb8-42dd-a3d5-f8321657a90e.jpg" alt="Photo de profil" />
+          </div>
+        </div>
+
+        <!-- Profil -->
+        <div class="section-wrapper m-t-0">
+          <h3 class="section-header">Profil</h3>
+          <div class="profile">
+            Développeur full-stack passionné, avec une approche créative et orientée solution.<br />
+            Solide expérience dans le développement d'applications interactives, de la conception d'interfaces utilisateur modernes à l'implémentation de bases de données performantes.
+          </div>
+        </div>
+
+        <!-- Formation -->
+        <h3 class="section-header m-t-2mm">Formation</h3>
+        <div class="education-list">
+          <div class="education-row">
+            <div class="education-row__date">2024 - 2025</div>
+            <div class="education-row__diploma">
+              En cours de Préparation de Technicien Spécialisé en développement Digital (2ème année) - OFPPT Tanger
+            </div>
+          </div>
+          <div class="education-row">
+            <div class="education-row__date">2022 - 2023</div>
+            <div class="education-row__diploma">
+              Baccalauréat Scientifique - Lycée Abdellah Chefchaouni
+            </div>
+          </div>
+        </div>
+
+        <!-- Projets -->
+        <div class="section-wrapper m-t-2mm">
+          <h3 class="section-header">Projets</h3>
+          <div class="projects-list">
+            <div class="project-item">
+              Système de Gestion de Produits
+              <br />
+              <a href="https://github.com/abdelmoizelkhaderbelachhab/PRODUCT_MANAGEMENT_SYSTEM-index.html" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab/PRODUCT_MANAGEMENT_SYSTEM</a>
+            </div>
+            <div class="project-item">
+              Site Web Statique
+              <br />
+              <a href="https://github.com/abdelmoizelkhaderbelachhab/static_website" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab/static_website</a>
+            </div>
+            <div class="project-item">
+              Calculatrice Simple
+              <br />
+              <a href="https://github.com/abdelmoizelkhaderbelachhab/Simple_calculator" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab/Simple_calculator</a>
+            </div>
+            <div class="project-item">
+              CRUD Produit en PHP
+              <br />
+              <a href="https://github.com/abdelmoizelkhaderbelachhab/Product-_CRUD_PHP" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab/Product-_CRUD_PHP</a>
+            </div>
+            <div class="project-item">
+              Gestion des Étudiants
+              <br />
+              <a href="https://github.com/abdelmoizelkhaderbelachhab/Student_Management" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab/Student_Management</a>
+            </div>
+            <div class="project-item">
+              CRUD avec React et Redux
+              <br />
+              <a href="https://github.com/abdelmoizelkhaderbelachhab/CRUD_REACT_REDUX" target="_blank"
+                >github.com/abdelmoizelkhaderbelachhab/CRUD_REACT_REDUX</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compétences -->
+        <h3 class="section-header m-t-2mm">Compétences</h3>
+        <div class="projects-list">
+          <div class="project-item">
+            <strong>Frontend :</strong> HTML / CSS / JavaScript / Bootstrap / React
+          </div>
+          <div class="project-item">
+            <strong>Backend :</strong> PHP / Laravel / Node.js
+          </div>
+          <div class="project-item">
+            <strong>Base de données :</strong> MySQL / MongoDB / PostgreSQL
+          </div>
+          <div class="project-item">
+            <strong>UI/UX & Outils :</strong> Figma / Git / GitHub / GitLab / Docker / Jira
+          </div>
+          <div class="project-item">
+            <strong>Pack Office :</strong> Word / Excel / PowerPoint
+          </div>
+        </div>
+
+        <!-- Qualités personnelles -->
+        <h3 class="section-header m-t-2mm">Qualités personnelles</h3>
+        <div class="personal-qualities">
+          <div class="quality-item">L'intégrité / La discipline / L'organisation / La patience</div>
+        </div>
+
+        <!-- Langues -->
+        <h3 class="section-header m-t-2mm">Langues</h3>
+        <div class="languages-list">
+          <div class="languages-item">Arabe : Maternel</div>
+          <div class="languages-item">Anglais : Intermédiaire</div>
+          <div class="languages-item">Français : Intermédiaire</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function download() {
+        const element = document.getElementById("content");
+        const name = document.querySelector(".full-name").textContent.split(" ")[0];
+        const filename = `${name} - CV Développeur Full-stack.pdf`;
+
+        html2pdf()
+          .set({
+            margin: 10,
+            filename: filename,
+            image: { type: "jpeg", quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+          })
+          .from(element)
+          .save();
+      }
+    </script>
+  </body>
+</html>
