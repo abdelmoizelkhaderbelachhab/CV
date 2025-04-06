@@ -2,6 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Abdelmoiz Elkhader Belachhab</title>
     <link rel="stylesheet" href="style.css" />
@@ -10,7 +11,7 @@
   </head>
   <body>
     <div class="print-button">
-      <button onclick="download()" class="print-button">
+      <button onclick="download()">
         Télécharger le PDF
       </button>
     </div>
@@ -191,7 +192,7 @@
         html2pdf()
           .set({
             margin: 10,
-            filename: "Abdelmoiz ELKHADER BELACHHAB - Full-Stuck Developer.pdf",
+            filename: "Abdelmoiz ELKHADER BELACHHAB - Full-Stack Developer.pdf",
             image: { type: "jpeg", quality: 0.98 },
             html2canvas: { scale: 2 },
             jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
