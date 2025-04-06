@@ -111,8 +111,7 @@ body {
 }
 
 .img-wrapper img {
-  width: 170px;
-  border-radius: 50%;
+  width: 140px;
   transform: scaleX(-1);
 }
 
@@ -135,7 +134,6 @@ body {
   color: var(--primary-color);
 }
 
-
 .education-row__date {
   font-style: italic;
   color: #4f85a4;
@@ -157,7 +155,6 @@ body {
   flex-direction: column;
   row-gap: 2mm;
 }
-
 
 .projects-list {
   display: flex;
