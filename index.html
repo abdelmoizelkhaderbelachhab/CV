@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Abdelmoiz Elkhader Belachhab</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="./html2pdf.js"></script>
+    <!-- <script src="./html2pdf.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   </head>
   <body>
     <div class="print-button">
@@ -187,15 +188,10 @@
     <script>
       function download() {
         const element = document.getElementById("content");
-        const name = document
-          .querySelector(".full-name")
-          .textContent.split(" ")[0];
-        const filename = `${name} - CV Développeur Full-stack.pdf`;
-
         html2pdf()
           .set({
             margin: 10,
-            filename: filename,
+            filename: "Abdelmoiz ELKHADER BELACHHAB - Full-Stuck Developer.pdf",
             image: { type: "jpeg", quality: 0.98 },
             html2canvas: { scale: 2 },
             jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
